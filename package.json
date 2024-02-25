@@ -10,10 +10,7 @@
     "preview": "vite preview",
     "host": "vite --host"
   },
-  "engines": {
-    "node": "10.1.0",
-    "npm": "20.9.0"
-  },
+
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
