@@ -1,0 +1,165 @@
+.Y_inscription {
+  display: flex;
+  overflow: hidden;
+
+  height: 100vh;
+  /* flex-direction: column; */
+}
+
+.Y_inscription .Y_inscription_container {
+  flex: 6;
+  overflow: hidden;
+}
+
+.Y_inscription .main-app {
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* .Y_inscription .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 335px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.Y_inscription .box .holder {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Y_inscription .box .icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+} */
+
+.Y_inscription .css-1vyamtt-MuiStepLabel-labelContainer {
+  color: white !important;
+}
+
+.Y_inscription .css-1hv8oq8-MuiStepLabel-label.Mui-active {
+  color: #1976d2;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: rgb(81 188 81) !important;
+}
+
+.Y_inscription .css-1hv8oq8-MuiStepLabel-label.Mui-completed {
+  color: rgb(81 188 81);
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  color: #1976d2 !important;
+}
+
+.Y_inscription .wrapper {
+  border: 2px dashed #1976d2;
+  padding: 20px;
+  width: 460px;
+  margin: auto;
+  border-radius: 7px;
+}
+
+@media (max-width: 600px) {
+  .Y_inscription .wrapper {
+    width: unset !important;
+    margin-bottom: 20px !important;
+  }
+  .Y_inscription .f_Wrappe p {
+    font-size: 13px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .Y_inscription .wrapper .box h3 {
+    font-size: 16px !important;
+  }
+  .Y_inscription .wrapper .box .types {
+    font-size: 9px !important;
+  }
+
+  .Y_inscription .wrapper .box .browse {
+    font-size: 10px !important;
+  }
+  .Y_inscription .wrapper .box .or {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .Y_inscription .displayed_file {
+    margin: 0 auto !important;
+    width: unset !important;
+  }
+}
+
+.Y_inscription .wrapper .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Y_inscription .f_Wrappe {
+  margin-left: 10px;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.Y_inscription .wrapper .box h3 {
+  margin: 0;
+}
+
+.Y_inscription .wrapper .box .types {
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.Y_inscription .displayed_file {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px auto;
+  width: 320px;
+  background-color: white;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.Y_inscription .f_Wrappe p {
+  color: gray;
+  margin-top: 5px;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.Y_inscription .f_Wrappe h4 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.Y_inscription .displayed_file .content {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  /* For WebKit browsers (Chrome, Safari) */
+  .Y_inscription .main-app::-webkit-scrollbar {
+    width: 0 !important;
+  }
+
+  .Y_inscription .main-app::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+  }
+
+  /* For Firefox */
+  .Y_inscription .main-app {
+    scrollbar-width: thin !important;
+    scrollbar-color: transparent transparent !important;
+  }
+}

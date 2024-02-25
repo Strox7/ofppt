@@ -1,0 +1,131 @@
+.login {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background: rgb(15, 25, 40);
+  background: linear-gradient(
+    102deg,
+    rgba(15, 25, 40, 1) 58%,
+    rgba(25, 118, 210, 1) 100%
+  );
+}
+
+.login form .container .inputWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+}
+
+.login .container h1 {
+  margin-bottom: 0;
+}
+
+.login .container .styled_p {
+  font-size: 17px;
+  color: gray;
+  margin-top: 0;
+}
+
+.login .imageHolder {
+  flex-basis: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .container .image {
+  text-align: center;
+}
+
+.login .container .back_Button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  text-align: right;
+  width: 100%;
+}
+
+.login .imageHolder img {
+  width: 100%;
+  height: 100%;
+}
+
+.login form .inputWrapper2 p button {
+  background-color: transparent;
+  border: none;
+  color: #1976d2;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.login form .inputWrapper2 p {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.login form .inputWrapper2 {
+  text-align: center;
+}
+
+.login .imageHolder .box {
+  background: rgb(25, 118, 210);
+  background: linear-gradient(
+    102deg,
+    rgba(25, 118, 210, 1) 9%,
+    rgba(15, 25, 40, 0) 100%
+  );
+  height: 436px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 71px;
+  width: 400px;
+}
+
+.login .container .image img {
+  width: 80px;
+}
+
+.login .imageHolder .box img {
+  width: 100px;
+  height: 100px;
+}
+
+.login .imageHolder .box h1 {
+  font-size: 50px;
+}
+
+.login form {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .login .imageHolder {
+    display: none;
+  }
+  .login {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 442px) {
+  .login form .inputWrapper {
+    width: 330px !important;
+  }
+  .signup form .Input_Wrapper2 {
+    width: 100%;
+  }
+  .login .container .styled_p {
+    font-size: 15px;
+  }
+}

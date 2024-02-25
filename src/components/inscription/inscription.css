@@ -1,0 +1,124 @@
+.inscription {
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.inscription_container {
+  flex: 6;
+}
+.inscription .main-app {
+  padding-top: 30px;
+  overflow-y: scroll;
+  height: 100%;
+
+  background: linear-gradient(
+    0deg,
+    rgba(25, 118, 210, 1) 0%,
+    rgba(15, 25, 40, 0) 54%
+  );
+}
+.inscription .main-app .box img {
+  width: 90px;
+  position: absolute;
+  top: -52px;
+}
+
+.inscription .main-app .container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 75px;
+}
+
+.inscription .main-app .holder_quot {
+  font-size: 25px;
+  background: linear-gradient(
+    90deg,
+    rgba(25, 118, 210, 1) 22%,
+    rgba(28, 40, 59, 0) 100%
+  );
+  padding: 20px;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.inscription .main-app .holder {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inscription .main-app .holder .two {
+  background: linear-gradient(
+    -87deg,
+    rgba(25, 118, 210, 1) 22%,
+    rgba(28, 40, 59, 0) 100%
+  );
+}
+
+@media (max-width: 767px) {
+  /* For WebKit browsers (Chrome, Safari) */
+  .inscription .main-app::-webkit-scrollbar {
+    width: 0 !important;
+  }
+
+  .inscription .main-app::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+  }
+
+  /* For Firefox */
+  .inscription .main-app {
+    scrollbar-width: thin !important;
+    scrollbar-color: transparent transparent !important;
+  }
+}
+
+@media (max-width: 753px) {
+  .inscription .main-app .box .input_Wrapper {
+    flex-direction: column;
+  }
+  .inscription .main-app .box {
+    margin-top: 50px !important;
+    height: 750px;
+  }
+}
+
+.inscription .main-app .box p {
+  text-align: left;
+  width: 100%;
+  color: gray;
+  font-size: 18px;
+}
+
+.inscription .main-app .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px 60px;
+  border-radius: 20px;
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.inscription .main-app .box .input_Wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.inscription .main-app .box h2 {
+  margin-bottom: 0;
+  text-transform: capitalize;
+  letter-spacing: -1px;
+}
+
+.inscription .box .buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}

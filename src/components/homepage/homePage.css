@@ -1,0 +1,352 @@
+.homePage {
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  /* flex-direction: column; */
+}
+
+.homePage .home-container {
+  flex: 6;
+  overflow: hidden;
+}
+
+.main-app {
+  padding-top: 30px;
+}
+
+/* .homePage .main-app {
+
+} */
+
+.homePage .main-app .welcome .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.homePage .main-app .welcome .text .content .p_tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  font-weight: bold;
+}
+
+.homePage .main-app .welcome .text .content > span {
+  color: #0f1928;
+  font-weight: 700;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.homePage .main-app .volder {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1079px) {
+  .homePage .main-app .volder {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 526px) {
+  .homePage .main-app .welcome .text .data h3 {
+    font-size: 20px !important;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .homePage .main-app .welcome .text .content > span {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
+
+  .homePage .main-app .welcome .text .content .p_tag {
+    font-size: 10px;
+    gap: 23px;
+  }
+  .homePage .main-app .welcome .text img {
+    max-width: unset !important;
+    width: 200px !important;
+  }
+  /* .homePage .main-app .welcome .text {
+    flex-direction: column-reverse;
+  } */
+}
+
+.homePage .main-app .volder .calendar {
+  background-color: #1c283b;
+  border-radius: 20px;
+}
+
+/* .custom-calendar .MuiTypography-body1 {
+  color: white !important;
+} */
+
+.homePage .main-app .welcome .text button {
+  display: block;
+  margin: auto;
+  background-color: #1c283b;
+  border: navajowhite;
+  padding: 10px 60px;
+  border-radius: 18px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.homePage .main-app .welcome .text img {
+  max-width: 100%;
+  /* width: 246px; */
+  width: 300px;
+}
+
+.homePage .main-app .welcome .text .data h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.homePage .main-app .welcome .text .data h3 span {
+  color: #0f1928;
+  text-transform: capitalize;
+}
+
+.homePage .main-app {
+  /* padding-left: 40px; */
+  overflow-y: auto;
+  height: 86%;
+  overflow-x: hidden;
+  background: linear-gradient(
+    0deg,
+    rgba(25, 118, 210, 1) 0%,
+    rgba(15, 25, 40, 0) 40%
+  );
+  height: 90%;
+}
+
+.homePage .main-app .welcome {
+  background: rgb(25, 118, 210);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 118, 210, 1) 22%,
+    rgba(28, 40, 59, 0) 100%
+  );
+  /* max-width: 70%; */
+  flex-basis: 70%;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+/* .main-app {
+  background-color: #0f1928;
+} */
+/* .header {
+  position: sticky;
+  top: 0;
+  left: 80px;
+  width: 100%;
+  background-color: black;
+  background-color: white;
+  box-shadow: 5px -1px 10px #ddd;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .image img {
+  width: 60px;
+  margin-left: 20px;
+}
+
+.header .field {
+  display: flex;
+  align-items: center;
+  background-color: #ecececec;
+  border-radius: 5px;
+}
+
+.header .field input {
+  background-color: transparent;
+  color: black;
+  outline: none;
+}
+
+.header .field svg {
+  padding-left: 14px;
+  color: black;
+} */
+
+/* .app_body {
+  display: flex;
+} */
+
+.cable {
+  display: flex;
+  gap: 10px;
+}
+
+.item_2 {
+  margin-bottom: 50px;
+  background-color: #1c283b;
+  padding: 20px;
+  border-radius: 20px;
+  height: 300px;
+  flex-basis: 70%;
+}
+
+.item_3 {
+  margin-bottom: 50px;
+  background-color: #1c283b;
+  padding: 20px;
+  border-radius: 20px;
+  height: 300px;
+  flex-basis: 30%;
+}
+
+@media (max-width: 755px) {
+  .cable {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .item_2 {
+    flex-basis: unset;
+    padding: 20px 0;
+    margin-bottom: 0;
+  }
+  .item_3 {
+    flex-basis: unset;
+    padding: 20px 0;
+  }
+}
+
+.cable_2 {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+}
+
+.iteem_1 {
+  margin-bottom: 50px;
+  background-color: #1c283b;
+  padding: 20px;
+  border-radius: 20px;
+  height: 385px;
+  flex-basis: 50%;
+}
+
+.iteem_2 {
+  background-color: #1c283b;
+  padding: 20px;
+  border-radius: 20px;
+  flex-basis: 50%;
+  height: 385px;
+}
+
+.homePage .iteem_2 .content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+}
+
+@media (max-width: 755px) {
+  .iteem_1 {
+    padding: 20px 20px 30px 0;
+  }
+  .homePage .cable_2 .capo {
+    flex-direction: column-reverse;
+    gap: 30px !important;
+  }
+
+  .homePage .cable_2 {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 442px) {
+  .topPerfo .voxe .Contents {
+    font-size: 11px;
+  }
+}
+
+.homePage .cable_2 .capo {
+  flex-basis: 50%;
+  display: flex;
+  gap: 5px;
+}
+
+.iteem_3 {
+  background-color: #1c283b;
+  padding: 20px;
+  border-radius: 20px;
+  flex-basis: 50%;
+  height: 385px;
+}
+
+.topPerfo .voxe {
+  position: relative;
+  background: rgb(15, 25, 40);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 25, 40, 1) 22%,
+    rgba(28, 40, 59, 0) 100%
+  );
+
+  /* background: linear-gradient(
+    90deg,
+    rgba(25, 118, 210, 1) 22%,
+    rgba(28, 40, 59, 0) 100%
+  ); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.topPerfo .voxe .medal {
+  position: absolute;
+  width: 20px;
+  right: 24%;
+  top: -7px;
+}
+
+.topPerfo .voxe .Contents {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+}
+
+.topPerfo {
+  width: 100%;
+  height: 300px;
+
+  overflow: auto;
+}
+
+@media (max-width: 767px) {
+  /* For WebKit browsers (Chrome, Safari) */
+  .homePage .main-app::-webkit-scrollbar {
+    width: 0 !important;
+  }
+
+  .homePage .main-app::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+  }
+
+  /* For Firefox */
+  .homePage .main-app {
+    scrollbar-width: thin !important;
+    scrollbar-color: transparent transparent !important;
+  }
+}

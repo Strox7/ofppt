@@ -1,0 +1,68 @@
+.header {
+  flex: 6;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: #1c283b;
+  box-shadow: 0 -10px 19px #ddd;
+  height: 60px;
+  z-index: 999;
+}
+
+.header .icons {
+  display: flex;
+  align-items: center;
+
+  color: white;
+}
+
+.header .image img {
+  cursor: pointer;
+  width: 60px;
+  margin-left: 20px;
+}
+
+.header .field {
+  display: flex;
+  align-items: center;
+  background-color: #ecececec;
+  border-radius: 5px;
+}
+
+.header .field input {
+  background-color: transparent;
+  color: black;
+  outline: none;
+}
+
+.header .field svg {
+  padding-left: 14px;
+  color: black;
+}
+
+.header .icon {
+  cursor: pointer;
+  background-color: transparent;
+  border: navajowhite;
+  color: white;
+  display: none;
+}
+
+.header .container .image {
+  display: flex;
+  align-items: center;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 993px) {
+  .header .icon {
+    display: block;
+  }
+}

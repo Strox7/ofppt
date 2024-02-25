@@ -1,0 +1,67 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* 
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+} */
+/* Medium */
+/* @media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+} */
+/* Large */
+/* @media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+} */
+
+.styled_h2 {
+  position: relative;
+  margin-top: 0;
+  padding-left: 23px;
+}
+
+.styled_h2::before {
+  content: "";
+  position: absolute;
+  background-color: #1976d2;
+  width: 3px;
+  height: 100%;
+  left: 0;
+}
+
+/* Disable the arrow icon on number input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+@media (max-width: 767px) {
+  /* For WebKit browsers (Chrome, Safari) */
+  body::-webkit-scrollbar {
+    width: 0 !important;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+  }
+
+  /* For Firefox */
+  body {
+    scrollbar-width: thin !important;
+    scrollbar-color: transparent transparent !important;
+  }
+}

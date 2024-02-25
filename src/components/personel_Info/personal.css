@@ -1,0 +1,189 @@
+.personal {
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.personal-container {
+  flex: 6;
+}
+
+.personal .css-1eox6oq-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 1px solid gray !important;
+  /* border-bottom: none !important; */
+}
+
+.personal .main-app {
+  /* display: flex; */
+  overflow-y: auto;
+  height: 110%;
+  /* background: linear-gradient(
+    0deg,
+    rgba(25, 118, 210, 1) 0%,
+    rgba(15, 25, 40, 0) 54%
+  ); */
+
+  /* overflow-x: hidden; */
+}
+
+.personal .styled_holder {
+  position: absolute;
+  right: 2px;
+  bottom: -7px;
+  background-color: #1976d2;
+  width: 36px;
+  height: 33px;
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 4px solid #0f1928;
+}
+
+@media (max-width: 767px) {
+  /* For WebKit browsers (Chrome, Safari) */
+  .personal .main-app::-webkit-scrollbar {
+    width: 0 !important;
+  }
+
+  .personal .main-app::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+  }
+
+  /* For Firefox */
+  .personal .main-app {
+    scrollbar-width: thin !important;
+    scrollbar-color: transparent transparent !important;
+  }
+}
+
+.personal .main-app .avatar_holder {
+  display: flex;
+
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.personal .main-app .input_holder {
+  display: flex;
+  gap: 100px;
+}
+
+.personal .main-app .input_holder .input_wrappe {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.personal .avatar_data h2 {
+  margin: 0;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.personal .avatar_data h5 {
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: #b5b1b1;
+}
+
+.personal .edite_wrapper {
+  position: absolute;
+  bottom: 33px;
+  color: white;
+  display: flex;
+}
+
+.personal .avatar_data .avatar_content {
+}
+
+.personal .avatar_data .avatar_content .box {
+  background-color: #1c283b;
+  padding: 10px 60px;
+  display: flex;
+  gap: 90px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+.personal .avatar_data .avatar_content .box .text_holder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.personal .avatar_data .avatar_content .box .text_holder span:first-of-type {
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 704px) {
+  .personal .main-app .avatar_holder {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .personal .avatar_data {
+    text-align: center;
+  }
+  .personal .avatar_data .avatar_content .box {
+    padding: 15px 27px;
+    display: flex;
+    gap: 46px;
+    font-size: 12px;
+    width: 260px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 704px) {
+  .personal .changer {
+    width: 310px !important;
+  }
+  .personal .changer2 {
+    margin: auto;
+  }
+  .personal .changer3 {
+    gap: 5px !important;
+  }
+}
+
+.personal .scelo-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.personal .main-app .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+}
+
+/* .personal .personal-container::before {
+  content: "";
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+} */
+
+.MuiButtonBase-root-MuiFab-root:hover {
+  background-color: #1976d2 !important;
+}
+
+@media (max-width: 760px) {
+  .personal .main-app .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .personal .main-app .input_holder {
+    flex-direction: column;
+    height: 700px;
+    gap: 30px;
+  }
+}
