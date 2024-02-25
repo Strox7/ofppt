@@ -35,9 +35,7 @@
     "react-responsive": "^9.0.2",
     "react-router-dom": "^6.19.0",
     "recharts": "^2.10.3",
-    "sort-by": "^1.2.0",
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15"
+    "sort-by": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
