@@ -13,4 +13,7 @@ export default defineConfig({
       "echarts-for-react": "echarts-for-react/lib/core",
     },
   },
+  build: {
+    chunkSizeWarningLimit: 1000, // Set the chunk size warning limit to 1MB
+  },
 });
