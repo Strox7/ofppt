@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
   Navigate,
+  BrowserRouter,
 } from "react-router-dom";
 import "./App.css";
 import HomePage from "./components/homepage/HomePage";
@@ -26,7 +27,7 @@ function App() {
   };
   return (
     <div>
-      <Router basename="/">
+      <Router basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/Login" element={<Login />}></Route>
           <Route

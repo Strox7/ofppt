@@ -121,7 +121,7 @@ function HomePage() {
                   </div>
 
                   <div className="image">
-                    <img src="/welcomev2.png" alt="" />
+                    <img src="/ofppt/welcomev2.png" alt="" />
                   </div>
                 </div>
               </div>

@@ -8,7 +8,7 @@ function TopPerforming() {
   const listes = [
     {
       img: <Avatar />,
-      img2: "/goldMedal.png",
+      img2: "/ofppt/goldMedal.png",
       id: "2004111200318",
       fullname: "idbakasse reda",
       performance: (
@@ -19,7 +19,7 @@ function TopPerforming() {
     },
     {
       img: <Avatar />,
-      img2: "/selverMedal.png",
+      img2: "/ofppt/selverMedal.png",
       id: "2005112100158",
       fullname: "tali soukaina",
       performance: (
@@ -30,7 +30,7 @@ function TopPerforming() {
     },
     {
       img: <BadgeAvatars />,
-      img2: "/bronzeMedal.png",
+      img2: "/ofppt/bronzeMedal.png",
       id: "2004090100228",
       fullname: "Bouhanout Mostafa",
       performance: (
