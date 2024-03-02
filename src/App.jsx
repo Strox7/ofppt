@@ -26,7 +26,7 @@ function App() {
   };
   return (
     <div>
-      <Router>
+      <Router basename="/">
         <Routes>
           <Route path="/Login" element={<Login />}></Route>
           <Route
