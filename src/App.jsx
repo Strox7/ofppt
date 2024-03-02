@@ -26,7 +26,7 @@ function App() {
   };
   return (
     <div>
-      <Router basename="/">
+      <Router basename="/ofppt/">
         <Routes>
           <Route path="/Login" element={<Login />}></Route>
           <Route
