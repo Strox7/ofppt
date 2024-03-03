@@ -64,7 +64,7 @@ function Login() {
       <div className="imageHolder">
         <div className="box">
           {/* <Avatar sx={{ width: "100px", height: "100px" }} /> */}
-          <img src="/ofpptL2.png" />
+          <img src="/ofppt/ofpptL2.png" />
           <h1>Welcome Back! Login and {"Let's"} Get Started</h1>
         </div>
       </div>
