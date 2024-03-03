@@ -515,7 +515,7 @@ function Forml() {
         {/* <img src="/draw_Sign_up.png" alt="" /> */}
         <div className="box">
           {/* <Avatar sx={{ width: "100px", height: "100px" }} /> */}
-          <img src="/ofpptL2.png" />
+          <img src="/ofppt/ofpptL2.png" />
           <h1>{"Let's"} Make it Happen Together!</h1>
         </div>
       </div>
